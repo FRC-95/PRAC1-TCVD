@@ -94,8 +94,7 @@ page = '/futbol-7-madrid-fin-de-semana-2018/resultados'
 soup = scrapDatos( website, page)
 
 # Lista para guardar datos de resultados
-lista_partidos = ['fecha', 'campo', 'jornada' 'local', 
-             'local_goles', 'visitante_goles', 'visitante']
+lista_partidos = ['fecha', 'campo', 'jornada', 'local', 'local_goles', 'visitante_goles', 'visitante']
 scrapResultados(soup)
 
 # Se define el path para guardar el dataset
@@ -107,8 +106,8 @@ path = os.path.join(path, nombre)
 with open(path, 'w', newline = '') as csvFile:
   writer = csv.writer(csvFile)
   # En primer lugar las cabeceras de los atributos
-  writer.writerow(lista_partidos[0:6])
-  del lista_partidos[0:6]
+  writer.writerow(lista_partidos[0:7])
+  del lista_partidos[0:7]
   # Y a continuacion los datos
   for partido in lista_partidos:
     writer.writerow(partido)
