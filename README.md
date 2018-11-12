@@ -16,7 +16,7 @@ El set de datos mostrado en el csv es el referente a scraping de resultados. El 
 | fecha  | campo | jornada | local | local_goles | visitante_goles | visitante | 
 | ---------- | ---------- | ---------- | ---------- | ---------- |---------- |---------- |
 | 21.10.2018 | CIU UCM - UCM 1 | 1 | CONTINOX CAVANNA | 14 | 0 | RAYAS BLANCAS |
-| 21.10.2018 | CIU UCM | 1 | 43 | GOLAZOS | 0 | 7 | SEKTA |
+| 21.10.2018 | CIU UCM | 1 | 43 GOLAZOS | 0 | 7 | SEKTA |
 
 Donde cada atributo viene definido por:
 
